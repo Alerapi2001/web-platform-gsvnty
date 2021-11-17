@@ -73,6 +73,9 @@ body{
 
 
 
+.conte{
+  margin-left: 30%;
+}
 
 
 
@@ -80,8 +83,139 @@ body{
 
 
 
+/* contenitore base */
+.image-container {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  display: inline-block;
+  margin: 10px;
+  -webkit-box-shadow: 2px 2px 50px rgba(0,0,0,0.6);
+  -moz-box-shadow: 2px 2px 50px rgba(0,0,0,0.6);
+  box-shadow: 2px 2px 50px rgba(0,0,0,0.6);
+}
 
+/* immagine al interno del contenitore */
+.image-container img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
 
+/* contenitore con didascalia */
+.image-container .image-caption {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  font-family: 'Open Sans',sans-serif;
+  text-align: center;
+}
+
+/* titolo */
+.image-caption h2 {
+  margin-top: 50px;
+  color: #fffefe;
+  font-weight: 300;
+}
+
+/* descrizione dell'immagine  */
+.image-caption p {
+  color: #fff;
+}
+
+/* Tipi di animazioni apparizione didascalie */
+
+/* animazione da sinistra*/
+
+.image-container .caption-1 {
+  left: -260px;
+  transition: all 0.5s;
+}
+.image-container:hover .caption-1 {
+  left: 0;
+  transition: all 0.5s;
+}
+
+/* animazione da sopra */
+.image-container .caption-2 {
+  top: -210px;
+  transition: all 0.5s;
+}
+.image-container:hover .caption-2 {
+  top: 0;
+  transition: all 0.5s;
+}
+
+/* animazione da basso */
+.image-container .caption-3 {
+  bottom: -210px;
+  transition: all 0.5s;
+}
+.image-container:hover .caption-3 {
+  bottom: 0;
+  transition: all 0.5s;
+}
+
+/* animazione da destra */
+.image-container .caption-4 {
+  right: -260px;
+  transition: all 0.5s;
+}
+.image-container:hover .caption-4 {
+  right: 0;
+  transition: all 0.5s;
+}
+
+/* animazione dall'angolo in alto a sinistra  */
+.image-container .caption-5 {
+  left: -260px;
+  top: -210px;
+  transition: all 0.5s;
+}
+.image-container:hover .caption-5 {
+  left: 0;
+  top: 0;
+  transition: all 0.5s;
+}
+
+/* animazione dall'angolo in alto a destra */
+.image-container .caption-6 {
+  right: -260px;
+  top: -210px;
+  transition: all 0.5s;
+}
+.image-container:hover .caption-6 {
+  right: 0;
+  top: 0;
+  transition: all 0.5s;
+}
+
+/* animazione dall'angolo in basso a sinistra */
+.image-container .caption-7 {
+  left: -260px;
+  bottom: -210px;
+  transition: all 0.5s;
+}
+.image-container:hover .caption-7 {
+  left: 0;
+  bottom: 0;
+  transition: all 0.5s;
+}
+
+/* animazione dall'angolo in basso a destra */
+.image-container .caption-8 {
+  right: -260px;
+  bottom: -210px;
+  transition: all 0.5s;
+}
+.image-container:hover .caption-8 {
+  right: 0;
+  bottom: 0;
+  transition: all 0.5s;
+}
 
 
 .nav {
