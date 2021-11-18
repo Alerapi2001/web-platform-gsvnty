@@ -3,7 +3,7 @@ function sortTable(){
     var store = [];
     for(var i=tbl.rows.length-1, len=0; i>=len; i--){
         var row = tbl.rows[i];
-        var sortnr = parseFloat(row.cells[1].textContent || row.cells[1].innerText);
+        var sortnr = parseFloat(row.cells[2].textContent || row.cells[2].innerText);
         if(!isNaN(sortnr)) store.push([sortnr, row]);
     }
     store.sort(function(x,y){

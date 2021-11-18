@@ -67,14 +67,17 @@ body{
 }
 
 #caltbl{
-  background: #1a1a1a;
   border-spacing: 0;
-  margin-left: 41%;
-  margin-top: 60px;
+  margin-left: 37%;
+  margin-top: 20px;
   border: 2px solid #d9d9d9;
 }
 
-tr td, tr th{
+td{
+  background: #1a1a1a;
+}
+
+tr td{
   color: #d9d9d9;
   font-family: 'Fredoka One', cursive;
   text-align: center;
@@ -85,6 +88,15 @@ tr td, tr th{
 #tfirst{
   border-right: 2px solid #d9d9d9;
   transition: all 1s;
+}
+
+th{
+  background: #fffefe;
+  color: #1a1a1a;
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 2px solid #d9d9d9;
 }
 
 #tti{
@@ -107,9 +119,6 @@ tr td, tr th{
 }
 
 
-.classifica{
-  padding: 100px 300px;
-}
 
 
 
@@ -122,7 +131,7 @@ tr td, tr th{
 
 .conte{
   margin-left: 30%;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 
 
