@@ -63,6 +63,16 @@ body{
   color: #d9d9d9;
 }
 
+.classifica{
+  margin: 0 auto;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
 .titlescore:hover{
   color: #242424;
   box-shadow: 100px 500px 300px #d9d9d9 inset;
@@ -109,7 +119,6 @@ body{
 }
 
 #tt{
-  margin-left: 33%;
   border-spacing: 0px;
 }
 
@@ -206,8 +215,13 @@ th{
 
 
 .conte{
-  margin-left: 30%;
-  margin-bottom: 100px;
+  margin: 0 auto;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
 }
 
 
